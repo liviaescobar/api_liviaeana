@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  width: 93.75vw;
+  height: 11vh;
+}
+
+.logo img {
+  width: 9.500vw;
+  height: 13vh;
+  padding: 40px;
+  padding-top: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+  color: #4C5270;
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+.botao_redessociais button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+body {
+  font-family: "Krub", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4C5270;
+  justify-content: space-between;
+}
+
+.texto {
+  padding: 40px 150px;
+}
+
+#textoinicio {
+  font-size: 72px;
+  color: #F3658A;
+}
+
+#textoinicio_cont {
+  font-size: 24px;
+}
+
+#textoinicio2 {
+  font-size: 80px;
+  color: #F3658A;
+}
+
+#textoinicio_cont2 {
+  font-size: 26px;
+  color: #000000;
+}
+
+.container2 {
+  display: flex;
+  background: #F5F5F5;
+  align-items: center;
+  padding: 90px 250px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4C5270;
+  justify-content: space-between;
+}
+
+div .texto_cartoes {
+  display: table-column;
+  justify-content: end;
+  padding: 50px 90px;
+}
+
+#texto_cartoes {
+  font-size: 40px;
+  margin-left: 90px;
+  margin-right: 50px;
+}
+
+#texto_cartoes_cont {
+  font-size: 30px;
+}
+
+b {
+  color: #F3658A;
+}
+
+
+#contato {
+  font-size: 45px;
+  color: #111111;
+}
+
+#info {
+  font-size: 30px;
+  color: #111111;
+}
+
+.container3 {
+  margin: 0 auto;
+  text-align: center;
+  height: 45vh;
+}
+
+input {
+  width: 50vw;
+  height: 5vh;
+  border: black;
+  border-radius: 25px;
+  display: inline;
+  justify-content: center;
+  padding: 10px 0px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #F3658A;
+  width: 95.5vw;
+  height: 47vh;
+  color: #fff;
+  padding: 30px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+  unicode-bidi: isolate;
+}
+
+button {
+  background-color: rgb(163, 83, 96);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 10vw;
+  height: 7vh;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#enviar:hover {
+  background-color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  color: #4C5270;
+}
+
+.margintop_email {
+  margin-top: 15px;
+}
+
+
+
+.texto {
+  text-align: center;
+}
+
+.texto h2 {
+  font-size: 3rem;
+}
+
+.texto p {
+  font-size: 1.6rem;
+}
+
+footer {
+  background-color: #F3658A;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  html{
+    max-width: 100%;
+  }
+  
+  .logo img {
+    height: 230px;
+    width: auto;
+    align-items: center;
+    position: absolute;
+    top: 10px; 
+    left: 70%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+  }
+  
+  .texto{
+    padding: 120px 150px;
+    text-align: center;
+    font-size: 577px;
+    
+  }
+
+  h2#textoinicio2{
+    align-items: center;
+    justify-content: column;
+  }
+
+  nav ul {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+
+
+  .botao_redessociais {
+    display: none;
+  }
+
+  .botao_redessociais button img {
+    height: 25px;
+    margin: 0 5px;
+  }
+
+  main {
+    padding: 10px;
+    width: 130vw;
+  }
+
+  .texto h2 {
+    font-size: 2rem;
+  }
+
+  .texto p {
+    font-size: 1.2rem;
+  }
+
+  .container,
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .container .imagem,
+  .container2 .imagem {
+    text-align: center;
+  }
+
+  .container .imagem img,
+  .container2 .imagem img {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+  }
+
+  input,
+  button {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    width: 132vw;
+  }
+
+  button#handleSubmit{
+    width: 50%;
+  }
+}
